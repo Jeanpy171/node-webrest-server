@@ -1,6 +1,6 @@
 export class UpdateTodoDto {
   constructor(
-    public readonly id?: number,
+    public readonly id: number,
     public readonly text?: string,
     public readonly completedAt?: Date
   ) {}
